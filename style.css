@@ -6,7 +6,7 @@ body {
 
 header h1 {
   text-align: center;
-  margin: 2;
+  margin: 0;
   padding-top: 15px;
 }
 
@@ -25,6 +25,7 @@ h3 {
 p {
   line-height: 1.5em;
   margin: 0;
+  text-align: center;
 }
 
 section {
@@ -72,14 +73,14 @@ main img {
   flex-direction: column;
 }
 .item {
-  flex: 2;
+  flex: 1 1 0;
   margin: 10px;
 }
 .center {
   align-items: center;
 }
 .item-double {
-  flex: 2;
+  flex: 2 1 0;
 }
 
 /* -------  Navigation ------- */
@@ -153,13 +154,16 @@ footer p {
 
   section,
   h1 {
-    padding: 20px;
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
   }
 
   header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0 20px;
   }
 
   header h1 {
@@ -170,7 +174,5 @@ footer p {
   header nav {
     margin-top: 10px;
   }
-  .group {
-    flex-direction: row;
-  }
+  
 }
