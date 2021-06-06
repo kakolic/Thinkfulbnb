@@ -19,7 +19,7 @@
 
   <body>
     <header>
-      <div class="logo">Thinkful-bnb</div>
+      <div class="logo">Thinkfulbnb</div>
       <nav>
         <ul id="menu">
           <li><a href="#stay">Stay</a></li>
@@ -38,31 +38,21 @@
         <form>
               <div class="newform">
                 <label for = "form-location"> Location </label>
-            <input 
-            id = "form-location"
-            name = "location"
-            autofocus = "on"
-            maxlength = "13"
-            placeholder = "search destination"
-            ></input>
+                <input id = "form-location" name = "location" placeholder = "search destination"
+            />
           </div>
               <div class="newform">
                 <label for = "arrive"> Arrival </label>
-            <input type = "date" id= "arrive" name = "trip-arrive"
-            value = "mm/dd/yyyy"
-            min = "2020-01-01" max = "2021-12-31">
-          </div>
+                <input type = "date" id= "arrive" name = "trip-arrive"value = "mm/dd/yyyy"/>
+              </div>
               <div class="newform">
                 <label for="depart">Departure	</label>
-            <input type="date" id="depart" name="trip-depart"
-            value = "mm/dd/yyyy"
-            min = "2020-01-01" max = "2021-12-31">
-            </div>
-
+                <input type="date" id="depart" name="trip-depart"value = "mm/dd/yyyy"/>
+              </div>
               <div class="newform">
-                <label for="types">Types of Rental</label>
-            <select name="types" size="1">
-              <option value="Apartment">Apartment</option>
+                <label for="type">Type	</label>
+                <select id="type" name="type" size="1">
+                  <option value="Apartment">Apartment</option>
                   <option value="Barn">Barn</option>
                   <option value="Castle">Castle</option>
                   <option value="Houseboat">Houseboat</option>
@@ -70,8 +60,8 @@
                   <option value="Yacht">Yacht</option>
                   <option value="Yurt">Yurt</option>
                   </select>
-                  </div>
-              <div>
+                </div>
+                <div>
                 <button type="submit">Search</button>
               </div>
         </form>
@@ -82,14 +72,12 @@
         <h2>About</h2>
           <div class="group1">
             <div class="item1">
-            <img
-              src="images/vacation-rental-pool.png"
+            <img class="image-resize"src="images/vacation-rental-pool.png"
               alt="Thinkfulbnb - Vacation rental pool"
             />
             </div>
             <div class="item1">
-            <img
-              src="images/vacation-rental-inside-stone.png"
+            <img class="image-resize"src="images/vacation-rental-inside-stone.png"
               alt="Thinkfulbnb - Vacation rental inside stone"
             />
             </div> 
@@ -101,8 +89,8 @@
               neque, at tempus lorem. Aenean mi magna, posuere at quam sed, euismod
               gravida neque.
             </p>
-            </div>
           </div>
+         </div>
       </section>
 
       <!-- Ideas -->
@@ -111,15 +99,11 @@
           <div class="group2">
             <div class="item3">
               <h3>Forest retreats</h3>
-              <img class="image-resize"
-                src="images/forest-retreat.png"
-                alt="Thinkfulbnb - Forest retreat"
-              />
+              <img class="image-resize"src="images/forest-retreat.png" alt="Thinkfulbnb - Forest retreat"/>
             </div>
-
             <div class="item3">
               <h3>Beaches</h3>
-              <img class="image-resize" src="images/beach-house.png" alt="Thinkfulbnb - Beach house" />
+              <img class="image-resize"src="images/beach-house.png" alt="Thinkfulbnb - Beach house" />
             </div>
           </div>
           <div class="group2">
@@ -129,7 +113,7 @@
             </div>
             <div class="item3">
               <h3>Pet-friendly</h3>
-              <img class="image-resize" src="images/pet-friendly.png" alt="Thinkfulbnb - Pet-friendly" />
+              <img class="image-resize"src="images/pet-friendly.png" alt="Thinkfulbnb - Pet-friendly" />
             </div>
           </div>
       </section>
@@ -139,28 +123,28 @@
         <div class="group2">
           <div class="item4">
             <h2>Want to Become a Thinkfulbnb Host?</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus.
-              Nam sit amet iaculis lectus. Aliquam erat volutpat. Praesent rhoncus
-              pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices
-              libero rutrum vitae.
-            </p>
+             <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+               molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus.
+               Nam sit amet iaculis lectus. Aliquam erat volutpat. Praesent rhoncus
+               pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices
+               libero rutrum vitae.
+             </p>
             <ul>
               <li>Mauris in pellentesque ligula.</li>
               <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
               <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
               <li>Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.</li>
               <li>
-                Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget
-                hendrerit mauris.
+                 Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget
+                 hendrerit mauris.
               </li>
             </ul>
           </div>
           <div class="item1">
-            <img class="item image-resize" src="images/become-a-host.png" alt="Thinkfulbnb - Become a host" />
+            <img class="image-resize"src="images/become-a-host.png" alt="Thinkfulbnb - Become a host" />
           </div>
-          </div>
+        </div>
       </section>
     </main>
 
